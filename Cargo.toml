@@ -10,3 +10,6 @@ repository = "https://github.com/RussTheAerialist/artcode"
 [dependencies]
 clap = "2.33.0"
 chrono = "0.4.10"
+
+[dev-dependencies]
+cargo-release = "0.13.0"
