@@ -10,6 +10,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "artcode"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "clap",
+]
+
+[[package]]
 name = "atty"
 version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25,14 +33,6 @@ name = "autocfg"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f8aac770f1885fd7e387acedd76065302551364496e46b3dd00860b2f8359b9d"
-
-[[package]]
-name = "batdate"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "clap",
-]
 
 [[package]]
 name = "bitflags"
