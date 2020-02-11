@@ -3,7 +3,7 @@ use clap::{app_from_crate, crate_name, crate_version, crate_description, crate_a
 use chrono::prelude::*;
 
 const CHARACTERS : &'static str = "abcdefghijklmnopqrstuvwxyz";
-const BASE : u32 = 26;
+const BASE : u32 = CHARACTERS.len() as u32;
 
 fn encode(value: u32) -> String {
     let mut retval = Vec::<String>::new();
