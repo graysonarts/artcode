@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] - ReleaseDate
+## [1.3.0] - 2020-05-17
 
 * Extracts functionality into a library to build tools off of it
 
