@@ -1,6 +1,6 @@
 [package]
 name = "artcode"
-version = "1.0.0"
+version = "1.2.0"
 authors = ["Grayson <me@russellhay.com>"]
 edition = "2018"
 license = "MIT"
