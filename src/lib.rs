@@ -30,7 +30,7 @@ impl Display for BatDate {
         write!(
             f,
             "{}{}{}x{}",
-            encode(self.year as u32).to_uppercase(),
+            encode(self.year as u32).to_lowercase(),
             encode(self.cycle_count),
             self.segment + 1,
             self.week_day.num_days_from_monday() + 1

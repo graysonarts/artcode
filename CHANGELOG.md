@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased - ReleaseDate
+
+- Changed format to make it kebab-case compatible
+
 ## [2.0.0] - 2024-03-12
 
 - Updated the version of dependencies
