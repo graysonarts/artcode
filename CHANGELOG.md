@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] - ReleaseDate
+## [2.0.0] - 2024-03-12
 
 - Updated the version of dependencies
 - Changed the format to use `x` instead of `.` for the cycle separator
