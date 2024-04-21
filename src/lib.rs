@@ -24,6 +24,13 @@ pub struct BatDate {
     week_day: Weekday,
 }
 
+impl Default for BatDate {
+    fn default() -> Self {
+        let now = Local::now();
+        now.into()
+    }
+}
+
 impl Display for BatDate {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         // Example: RYBc2.2
@@ -69,12 +76,18 @@ mod test {
         let date: BatDate = NaiveDate::parse_from_str("20200517", "%Y%m%d")
             .unwrap()
             .into();
-        assert_eq!(date.to_string(), "RYBj1x7".to_owned());
+        assert_eq!(date.to_string(), "rybj1x7".to_owned());
     }
 
     #[test]
     fn test_valid_datetime() {
         let date: BatDate = Local.with_ymd_and_hms(2020, 5, 17, 0, 0, 0).unwrap().into();
-        assert_eq!(date.to_string(), "RYBj1x7".to_owned());
+        assert_eq!(date.to_string(), "rybj1x7".to_owned());
+    }
+
+    #[test]
+    fn test_default() {
+        let date: BatDate = BatDate::default();
+        assert_eq!(date.to_string().len(), 7);
     }
 }
