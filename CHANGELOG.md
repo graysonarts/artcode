@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased - ReleaseDate
+## 2.2.2 - 2024-04-21
 
 - Update dependencies
 
