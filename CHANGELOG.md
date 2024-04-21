@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased - ReleaseDate
+## 2.2.0 - 2024-04-21
 
 - Changed format to make it kebab-case compatible
 
